@@ -1,0 +1,83 @@
+* {
+  font-family: 'Maven Pro', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  background-color: #593493;
+  height: 100vh;
+}
+
+header {
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+ul {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+nav ul li {
+  padding-left: 16px;
+  list-style-type: none;
+}
+
+.navbar_link {
+  text-decoration: none;
+}
+
+.proz_main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  color: white;
+}
+
+.como_fazemos {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  color: white;
+}
+
+.como_fazemos_titles {
+  padding-top: 30px;
+}
+
+.proz_title {
+  font-size: 60px;
+}
+
+.informacoes_section {
+  display: flex;
+  gap: 40px;
+}
+
+.informacoes_text {
+  background: url(/img/bg_laranja.jpg);
+  max-width: 400px;
+  height: 300px;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}
+
+.informacoes_text:hover {
+  scale: 1.04;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.informacoes_text_title {
+  font-size: 24px;
+  padding-bottom: 20px;
+}
